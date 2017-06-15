@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.n_sta.pocketm.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="164dp"
+        android:layout_height="495dp"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <Button
+            android:text="적립금"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btn"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="196dp"
+        android:layout_height="190dp"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="180dp">
+
+        <Button
+            android:text="미리보기"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btn2"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="next(임시버튼,자동넘기기설정)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn3"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
