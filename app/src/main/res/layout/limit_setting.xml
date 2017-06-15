@@ -3,30 +3,55 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="456dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="459dp"
+                    android:orientation="vertical"
+                    >
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/passive"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
-        <CheckBox
-            android:id="@+id/checkBox2"
-            android:layout_width="204dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="수동" />
-
-        <CheckBox
-            android:id="@+id/checkBox"
-            android:layout_width="177dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="자동" />
-
         <Button
             android:id="@+id/btnPercent"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="NEXT(생활비%로 분류설정)" />
     </LinearLayout>
 

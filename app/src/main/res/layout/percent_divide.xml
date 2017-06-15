@@ -8,4 +8,71 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="분류별 몇퍼센트로 돈 나눌것인지 설정" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:text="전액" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="183dp"
+                android:layout_height="118dp"
+                android:text="세분화" />
+
+            <RadioGroup
+                android:layout_width="160dp"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="식비     _________% n" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="교통비  _________% " />
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="기타     _________% " />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="생활비  _________% " />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="저축, 비상금 모으기" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+
 </LinearLayout>
