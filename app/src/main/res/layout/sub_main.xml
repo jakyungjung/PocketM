@@ -5,7 +5,7 @@
 
     <Button
         android:text="setting"
-        android:layout_width="match_parent"
+        android:layout_width="71dp"
         android:layout_height="wrap_content"
         android:id="@+id/btnSetting" />
 
