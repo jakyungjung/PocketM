@@ -3,18 +3,9 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:text="계좌로 불러오기"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btncallup" />
-
-
-
     <TextView
-        android:text="내 적립금:"
+        android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView" />
-
+        android:text="분류별 몇퍼센트로 돈 나눌것인지 설정" />
 </LinearLayout>

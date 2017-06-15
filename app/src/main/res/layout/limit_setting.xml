@@ -4,23 +4,30 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
         <CheckBox
-            android:text="수동"
+            android:id="@+id/checkBox2"
             android:layout_width="204dp"
             android:layout_height="wrap_content"
-            android:id="@+id/checkBox2"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:text="수동" />
 
         <CheckBox
-            android:text="자동"
+            android:id="@+id/checkBox"
             android:layout_width="177dp"
             android:layout_height="wrap_content"
-            android:id="@+id/checkBox"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:text="자동" />
+
+        <Button
+            android:id="@+id/btnPercent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NEXT(생활비%로 분류설정)" />
     </LinearLayout>
 
 </LinearLayout>
