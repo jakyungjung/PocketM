@@ -16,6 +16,12 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnBulletin" />
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
     <TextView
         android:text="문의사항: lostar77@naver.com"
         android:layout_width="match_parent"
