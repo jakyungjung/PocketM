@@ -34,5 +34,14 @@ public class MainSub extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btnEmergencyFund = (Button) findViewById(R.id.btnEmergencyFund);
+        btnEmergencyFund.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), FundEmergency.class);
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -24,6 +24,9 @@
         <activity android:name=".BoardBulletin"></activity>
         <activity android:name=".UseDescription"></activity>
         <activity android:name=".DividePercent"></activity>
+        <activity android:name=".LimitAuto"></activity>
+        <activity android:name=".LimitPassive"></activity>
+        <activity android:name=".FundEmergency"></activity>
     </application>
 
 </manifest>

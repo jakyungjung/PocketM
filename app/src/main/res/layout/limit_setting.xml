@@ -4,6 +4,7 @@
     android:layout_height="match_parent">
 
     <TabHost
+        android:id="@+id/tabhost1"
         android:layout_width="match_parent"
         android:layout_height="456dp">
 
@@ -23,19 +24,34 @@
                 android:layout_height="match_parent">
 
                 <LinearLayout
-                    android:id="@+id/auto"
+                    android:id="@+id/tab1"
                     android:layout_width="match_parent"
-                    android:layout_height="459dp"
-                    android:orientation="vertical"
-                    >
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:text="월급 자동이체(남은 돈: 비상금적금, 부족한 돈: 다른 사용자에게 허가 OR 하루만 자기가 한도 변경 가능) "
+                        android:textSize="20dp" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/passive"
+                    android:id="@+id/tab2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
+
+                    <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:text="일별 한도,주별 한도"
+                            android:textSize="20dp" />
 
                 </LinearLayout>
 
@@ -47,6 +63,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
+
 
         <Button
             android:id="@+id/btnPercent"

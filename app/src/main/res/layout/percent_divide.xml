@@ -36,31 +36,29 @@
                 android:layout_width="160dp"
                 android:layout_height="match_parent">
 
-                <RadioButton
+                <CheckBox
                     android:id="@+id/radioButton4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="식비     _________% n" />
 
-                <RadioButton
+                <CheckBox
                     android:id="@+id/radioButton3"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_height="49dp"
                     android:text="교통비  _________% " />
 
-                <RadioButton
+                <CheckBox
                     android:id="@+id/radioButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="기타     _________% " />
 
-                <RadioButton
+                <CheckBox
                     android:id="@+id/radioButton2"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_height="55dp"
                     android:text="생활비  _________% " />
 
                 <Button

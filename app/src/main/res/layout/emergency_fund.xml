@@ -3,17 +3,9 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btncallup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="계좌 연결(토스API)" />
-
-
     <TextView
-        android:text="내 적립금:"
+        android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView" />
-
+        android:text="다른 저축 계좌로 연결해 남은 돈을 넣어준다." />
 </LinearLayout>
