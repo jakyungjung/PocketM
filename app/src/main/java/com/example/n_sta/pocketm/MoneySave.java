@@ -17,14 +17,6 @@ public class MoneySave extends ActionBarActivity{
         setContentView(R.layout.save_money);
 
 
-        Button btncallup = (Button) findViewById(R.id.btncallup);
-        btncallup.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), SettingLimit.class);
-                startActivity(intent);
-            }
-        });
     }
 }
 
