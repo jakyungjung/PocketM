@@ -9,11 +9,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnSetting" />
 
-    <TextView
-        android:text="달력"
+    <CalendarView
+        android:id="@+id/calendarView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2" />
+        android:layout_height="wrap_content" />
 
     <Button
         android:text="한도설정"
